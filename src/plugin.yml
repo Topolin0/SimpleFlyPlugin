@@ -1,0 +1,9 @@
+name: SimpleFly
+main: plugintest.Main
+version: 1.0
+author: Topolin0
+description: This is a simple fly plugin.
+commands:
+      fly:
+        description: Fly on/off
+        aliases: [flight, volo]
