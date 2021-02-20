@@ -15,7 +15,7 @@ public class Command implements CommandExecutor {
 
             if(infoserver.getName().equalsIgnoreCase("fly")) {
                 if(sender instanceof Player) {
-                    if(sender.hasPermission("<WRITE HERE YOUR PERMISSION>")) {
+                    if(sender.hasPermission("<WRITE HERE YOUR PERMISSION>")) { //Replace <WRITE HERE YOUR PERMISSION> with the permission you want to use
                         Player p = (Player) sender;
                         if (p.getAllowFlight()) {
                             p.setAllowFlight(false);
